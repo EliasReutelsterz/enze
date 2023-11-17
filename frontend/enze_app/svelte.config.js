@@ -8,7 +8,7 @@ const config = {
 		}),
 		paths: {
 			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH,
-			assets: process.argv.includes('dev') ? '' : 'https://eliasreutelsterz.github.io/enze'
+			assets: process.argv.includes('dev') ? '' : 'https://eliasreutelsterz.github.io/enze/docs'
 		}
 	}
 };
