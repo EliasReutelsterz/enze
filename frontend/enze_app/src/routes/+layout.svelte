@@ -5,8 +5,8 @@
 </script>
 
 <nav>
-	<a href="{base}/">Home</a>
-	<a href="{base}/about">About</a>
+	<a href="{base}/enze">Home</a>
+	<a href="{base}/enze/about">About</a>
 </nav>
 
 <slot />
