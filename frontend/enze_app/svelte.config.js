@@ -1,18 +1,21 @@
-import adapter from '@sveltejs/adapter-static';
-import { vitePreprocess } from '@sveltejs/kit/vite';
+import adapter from "@sveltejs/adapter-static";
+// was "@sveltejs/adapter-auto"
 
-const dev = process.env.NODE_ENV !== 'production';
+const dev = "production" === "development";
 
-/** @type {import('@sveltejs/kit').Config} */
+/** @type {import(""@sveltejs/kit").Config} */
 const config = {
 	kit: {
 		adapter: adapter({
-			strict: false
+			pages: "docs",
+			assets: "docs",
+			fallback: '<page>.html'
 		}),
 		paths: {
-			base: dev ? '' : process.env.BASE_PATH,
-		}
-	},
-	preprocess: vitePreprocess()
+			// change below to your repo name
+			base: dev ? "" : "/enze",
+		},
+	}
 };
+
 export default config;
