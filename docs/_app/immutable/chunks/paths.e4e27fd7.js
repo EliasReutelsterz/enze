@@ -1,0 +1,1 @@
+var s;const t=((s=globalThis.__sveltekit_lrle2d)==null?void 0:s.base)??"";var e;const l=((e=globalThis.__sveltekit_lrle2d)==null?void 0:e.assets)??"https://eliasreutelsterz.github.io/enze";export{l as a,t as b};
